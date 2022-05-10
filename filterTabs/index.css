@@ -1,0 +1,16 @@
+.btn {
+    width: 24%;
+    padding: 14px 0;
+    background-color: #E3EAF3;
+    border: 1px solid #E3EAF3;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    color: #242424;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.content-img {
+    margin: 15px
+}

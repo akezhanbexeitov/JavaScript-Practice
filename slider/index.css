@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    height: 200vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-window {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: scale(0);
+    transition: .2s;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 40%;
+    height: 60%;
+    background-color: #FFF;
+    position: relative;
+}
+
+.modal img {
+    width: 80%;
+    height: 80%;
+}
+
+.modal .close-btn {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    border: none;
+    color: #FFF;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.modal button:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+.active {
+    transform: scale(1);
+}
+
+.slide-img {
+    width: 30%;
+    height: 30%;    
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.slide-btn {
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.slide-btn i {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.left-btn {
+    left: 10px;
+}
+
+.right-btn {
+    right: 10px;
+}
+
+.slide-dots {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.dots {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.dots.active {
+    background-color: red;
+}

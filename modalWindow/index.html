@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Window</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <img onclick="openImg(event)" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXJ8ZW58MHx8MHx8&w=1000&q=80" alt="" width="33%" height="30%">
+    <img onclick="openImg(event)" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29tcHV0ZXJ8ZW58MHx8MHx8&w=1000&q=80" alt="" width="33%" height="30%">
+    <img onclick="openImg(event)" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29tcHV0ZXJ8ZW58MHx8MHx8&w=1000&q=80" alt="" width="33%" height="30%">
+
+    <div class="container">
+        <button onclick="openModal()" class="modal-button">Открыть модалку</button>
+
+        <div class="modal-window">
+            <div class="modal">
+                <img src="" alt="" class="modal-img">
+                <button onclick="closeModal()">X</button>
+            </div>
+        </div>    
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

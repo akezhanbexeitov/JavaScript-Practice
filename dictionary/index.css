@@ -1,0 +1,17 @@
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    width: 28%;
+}
+
+.product img {
+    width: 100%;
+    height: 500px;
+}
+
+.product h1, .product p {
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <div class="modal-window">
+        <div class="modal">
+            <img src="" alt="" class="modal-img">
+            <button onclick="modal()" class="close-btn">X</button>
+
+            <button class="slide-btn left-btn" onclick="nextPrevImg(-1)">
+                <i class="fas fa-caret-left"></i>
+            </button>
+            <button class="slide-btn right-btn" onclick="nextPrevImg(+1)"> 
+                <i class="fas fa-caret-right"></i>
+            </button>
+
+            <div class="slide-dots">
+
+            </div>
+        </div>
+    </div>    
+
+    <div class="images">
+
+    </div>
+
+
+    <script src="slider.js"></script>
+</body>
+</html>
