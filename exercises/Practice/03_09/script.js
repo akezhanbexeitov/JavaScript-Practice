@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /**
  * Practice: Making methods
  *
@@ -22,5 +23,11 @@ const backpack = {
   newStrapLength: function (lengthLeft, lengthRight) {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
+  },
+  rename: function (newName) {
+    this.name = newName;
+  },
+  changeColor: function (newColor) {
+    this.color = newColor;
   },
 };
