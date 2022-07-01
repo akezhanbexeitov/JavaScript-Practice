@@ -1,0 +1,31 @@
+console.log("Exercise 3: Chessboard")
+let chessboard = ''
+width = 8
+height = 8
+
+for (let i = 0; i < height; i++) {
+    if (i % 2 == 0) {
+        for (let i = 0; i < width; i++) {
+            if (i % 2 == 0) {
+                chessboard += '#'
+            } else {
+                chessboard += ' '
+            }
+       
+        }
+        chessboard += '\n'
+    } else {
+        for (let i = 0; i < width; i++) {
+            if (i % 2 == 1) {
+                chessboard += '#'
+            } else {
+                chessboard += ' '
+            }
+       
+        }
+        chessboard += '\n'
+    }
+    
+}
+
+console.log(chessboard)
