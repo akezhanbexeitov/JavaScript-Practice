@@ -7,10 +7,11 @@
 ######
 #######
 */
-
+console.log("Exercise 1: Looping a Triangle")
 let hashtag = ''
 
 for (let i = 0; i < 7; i++) {
     hashtag += '#'
     console.log(hashtag)
 }
+console.log('')
