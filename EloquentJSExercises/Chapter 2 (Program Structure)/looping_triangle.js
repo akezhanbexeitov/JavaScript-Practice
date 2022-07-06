@@ -18,7 +18,7 @@ console.log('')
 
 
 // Shorter answer
-for (let line = "#"; line.length < 8; line += "#")
-  console.log(line);
+// for (let line = "#"; line.length < 8; line += "#")
+//   console.log(line);
   
-console.log('')
+// console.log('')
