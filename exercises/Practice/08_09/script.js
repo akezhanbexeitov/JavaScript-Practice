@@ -34,7 +34,9 @@ const frogpack = {
 };
 
 // Baseline HTML output
-const content = `
+const main = (frogpack) => {
+  const content = document.createElement('article')
+  content.innerHTML = `
     <h1 class="backpack__name">${frogpack.name}</h1>
     <ul class="backpack__features">
       <li class="packprop backpack__volume">Volume:<span> ${
@@ -56,4 +58,20 @@ const content = `
         frogpack.lidOpen ? "open" : "closed"
       }</span></li>
     </ul>  
-`;
+  `;
+  document.querySelector('main').append(content)
+}
+
+main(frogpack)
+
+const helperImage = () => {
+  const figure = document.createElement('figure')
+  
+}
+
+
+
+
+
+
+
